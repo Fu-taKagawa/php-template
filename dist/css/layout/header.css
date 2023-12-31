@@ -1,0 +1,145 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+
+.header__list.active {
+    display: block; 
+}
+
+.header__toggler {
+    z-index: 9999;
+    width: 28px;
+    outline: none;
+    cursor: pointer; 
+}
+
+.header__toggler span,
+.header__toggler span::before,
+.header__toggler span::after {
+    position: absolute;
+    content: "";
+    width: 28px;
+    height: 2.5px;
+    background: #000000;
+    border-radius: 20px;
+    -webkit-transition: 500ms cubic-bezier(0.77, 0, 0.175, 1);
+    transition: 500ms cubic-bezier(0.77, 0, 0.175, 1); 
+}
+
+.header__toggler span::before {
+    top: -8px; 
+}
+
+.header__toggler span::after {
+    top: 8px; 
+}
+
+.header__toggler.active > span {
+    background: transparent; 
+}
+
+.header__toggler.active > span::before,
+.header__toggler.active > span::after {
+    background: #000000;
+    top: 0px;
+}
+
+.header__toggler.active > span::before {
+    transform: rotate(-225deg); 
+}
+
+.header__toggler.active > span::after {
+    transform: rotate(225deg); 
+}
+
+@media (min-width: 960px) {
+    .header {
+        z-index: 1000;
+        background-color: #ffffff;
+        height: 55px;
+    } 
+
+    .header__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__list__item {
+        padding: 0 15px; 
+    }
+
+    .header__toggler {
+        display: none;
+    }
+}
+
+@media (max-width:959px) and (min-width:590px){
+    .header{
+        top: 20px;
+        margin: auto;
+        height: 30px;
+    }
+
+    .header__list {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 998;
+        background-color: #ffffff;
+        width: 100%;
+        height: 100vh;
+        display: none;
+        padding: 60px 30px 0 30px; 
+    }
+
+    .header__list__item {
+        align-items: center;
+        display: block;
+        margin: 0 auto 30px;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content; 
+    } 
+}
+
+@media (max-width:589px){
+    .header{
+        top: 20px;
+        margin: auto;
+        height: 30px;
+    }
+
+    .header__list {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 998;
+        background-color: #ffffff;
+        width: 100%;
+        height: 100vh;
+        display: none;
+        padding: 60px 30px 0 30px; 
+    }
+
+    .header__list__item {
+        align-items: center;
+        display: block;
+        margin: 0 auto 30px;
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content; 
+    } 
+}
+
+@media (max-width:399px){
+    .header{
+
+    }
+}

@@ -1,0 +1,149 @@
+.poppins-light {
+  font-family: Poppins, sans-serif;
+  font-weight: 200
+}
+
+.poppins-normall {
+  font-family: Poppins, sans-serif;
+  font-weight: 400
+}
+
+.poppins-bold {
+  font-family: Poppins, sans-serif;
+  font-weight: 700
+}
+
+.midashi-go {
+  font-family: a-otf-normalidashi-go-normalb31-pr6n, sans-serif;
+  font-weight: 600
+}
+
+.futura-normal {
+  font-family: "futura-pt, sans-serif";
+  font-weight: 400
+}
+
+.futura-bold {
+  font-family: "futura-pt-boldold, sans-serif";
+  font-weight: 700;
+  font-style: normal
+}
+
+.montserrat-bold,
+.montserrat-normal {
+  font-family: montserrat, sans-serif;
+  font-style: normal
+}
+
+.montserrat-normal {
+  font-weight: 500
+}
+
+.montserrat-bold {
+  font-weight: 700
+}
+
+
+@media (min-width:960px) {
+  .section-title {
+    font-size: 35px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: calc(35px * .001 * 25)
+  }
+}
+
+@media (max-width:589px) {
+  .section-title {
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: calc(25px * .001 * 25)
+  }
+}
+
+@media (min-width:960px) {
+  .text-title {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: calc(30px * .001 * 25)
+  }
+
+  .text-large {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: calc(20px * .001 * 25)
+  }
+}
+
+@media (max-width:589px) {
+
+  .text-large,
+  .text-title {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: calc(20px * .001 * 25)
+  }
+
+  .text-bold {
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: calc(15px * .001 * 25)
+  }
+}
+
+@media (min-width:960px) {
+  .text-bold {
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: calc(15px * .001 * 25)
+  }
+
+  .text-normal {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: calc(15px * .001 * 25)
+  }
+}
+
+@media (max-width:589px) {
+  .text-normal {
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: calc(15px * .001 * 25)
+  }
+
+  .text-small {
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: calc(13px * .001 * 25)
+  }
+}
+
+@media (min-width:960px) {
+  .text-small {
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: calc(13px * .001 * 25)
+  }
+}

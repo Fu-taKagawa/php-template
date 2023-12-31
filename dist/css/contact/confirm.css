@@ -1,0 +1,103 @@
+
+.confirm-form{
+    width: 70%;
+    margin: 50px auto;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+}
+
+@media (max-width:959px) and (min-width:590px) {
+    .confirm-form{
+        width: 90%;
+        margin: 40px auto;
+    }
+}
+
+@media (max-width:589px) {
+    .confirm-form{
+        width: 95%;
+        margin: 30px auto;
+        padding: 20px 5px;
+    }
+}
+
+.confirm-form h1{
+    margin:0px auto 30px;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+}
+
+.contactFlow{
+    text-align: center;
+}
+.contactFlow img{
+    width: 70%;
+    margin: 30px auto;
+}
+
+.input-area{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 1.5px #E0E0E0
+}
+
+.input-area__content{
+    width: 20%;
+    text-align: left;
+    margin-right: 10%;
+}
+
+
+
+@media (max-width:959px) and (min-width:590px) {
+    .contactFlow img{
+        width: 90%;
+    }
+    .input-area{
+        width: 90%;
+        font-size: 17px;
+    }
+    .input-area__content{
+        width: 30%;
+    }
+}
+
+@media (max-width:589px){
+    .confirm-form h1{
+        margin: 0px auto 10px;
+    }
+    .contactFlow img{
+        width: 95%;
+    }
+    .input-area{
+        width: 95%;
+        font-size: 13px;
+    }
+    .input-area__content{
+        width: 40%;
+    }
+}
+
+.confirm-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.confirm-button__btn{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin: 20px 0;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+    color: #fff;
+    border: solid 1px #000;
+    background-color: #3B3B3B;
+}
+

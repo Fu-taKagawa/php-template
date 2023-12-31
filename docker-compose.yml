@@ -1,0 +1,10 @@
+---
+version: "3.7"
+services:
+  php:
+    #build: ./php-fpm
+    build: ./Docker
+    ports:
+      - 8080:8000
+    volumes:
+      - ./dist:/dist

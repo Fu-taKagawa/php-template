@@ -1,0 +1,511 @@
+.contact{
+    width: 70%;
+    margin: 100px auto;
+}
+
+.contact__top{
+    text-align: center;
+}
+
+.contact__top h1{
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+    margin: 50px 0;
+}
+
+.contactFlow img{
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+}
+
+
+.contact form {
+    width: 100%;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif
+}
+
+.contact__label{
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+}
+
+.contact__required{
+    padding: 3px 8px;
+    font-size: 8px;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+    color: #E23B5B;
+    border: 1.5px solid #E23B5B;
+    background-color: #fff;
+}
+
+.contact__model{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: solid 1.5px #E0E0E0;
+}
+
+.contact__model label{
+    margin: 10px;
+}
+
+.contact__model-selector{
+    width: 62%;
+}
+
+.contact__model-selector select{
+    width: 100%;
+    height: 50px;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+}
+
+.contact__date {
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 1.5px #E0E0E0;
+    margin-bottom: 50px;
+}
+
+.contact__date label {
+    margin: 10px;
+}
+
+.contact__date-selector {
+    width: 62%;
+    display: flex;
+}
+
+.contact__date__schedule{
+    font-size: 13px;
+    width: 48%;
+    margin-right: auto;
+}
+
+.contact__date__time {
+    font-size: 13px;
+    width: 48%;
+    margin-left: auto;
+}
+
+.contact__date__schedule__first p,
+.contact__date__time__first p {
+    margin: 0 5px
+}
+
+.contact__date__schedule__second,
+.contact__date__time__second {
+    margin-right: 10px
+}
+
+.contact__date__schedule__second p,
+.contact__date__time__second p {
+    margin: 0 5px
+}
+
+.contact__date__schedule input{
+    width: 100%;
+    height: 50px;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+}
+
+.contact__date__time select {
+    width: 100%;
+    height: 55px;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 5px;
+    background-color: #F7F7F7
+}
+
+.contact__infoTop{
+    width: 200px;
+    margin: 20px 0;
+    padding: 2px 0;
+    color: #fff;
+    background-color: #3B3B3B;
+}
+
+.contact__infoTop h1{
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+}
+
+.contact__postalNumber,
+.contact__email,
+.contact__name,
+.contact__phone {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 1.5px #E0E0E0
+}
+
+.contact__postalNumber label,
+.contact__address label,
+.contact__email label,
+.contact__name label,
+.contact__phone label,
+.contact__terms label {
+    margin: 0 10px;
+}
+
+.contact__postalNumber input,
+.contact__email input,
+.contact__name input,
+.contact__phone input {
+    width: 60%;
+    height: 30px;
+    padding: 10px;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 5px;
+    background-color: #F7F7F7
+}
+
+.contact__phone__input{
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__phone__input input{
+    width: 23%;
+    text-align: center;
+}
+
+.contact__phone__input span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact__postalNumber__input{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+.contact__postalNumber__input input{
+    width: 100%;
+}
+
+.contact__postalNumber__input p{
+    font-size: 10px;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+}
+
+.contact__address{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 1.5px #E0E0E0;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+}
+
+.contact__address input{
+    height: 30px;
+    padding: 10px;
+    border: 1.5px solid #D1D1D1;
+    border-radius: 5px;
+    background-color: #F7F7F7
+}
+
+.contact__address__input{
+    width: 62%;
+}
+
+.contact__address__input p{
+    font-size: 15px;
+    line-height: 10px;
+    margin-left: 5px;
+}
+
+.contact__address__input-early{
+    display: flex;
+}
+
+.contact__address__input-early__prefecture{
+    width: 100%;
+}
+
+.contact__address__input-early__region{
+    width: 100%;
+}
+
+.contact__address__input-early__prefecture input{
+    width: 92%;
+}
+
+.contact__address__input-early__region input{
+    width:92%;
+}
+
+
+.contact__address__input-late{
+    width: 46.8%;
+}
+
+.contact__address__input-late input{
+    width: 100%;
+}
+
+
+
+.contact__terms{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.contact__terms__text {
+    width: 60%;
+    padding: 0px 10px;
+    font-size: 13px;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+    background-color: #F7F7F7;
+}
+
+.contact__terms__text {
+    height: 150px;
+    border: 1.5px solid #E0E0E0;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    margin: 10px 0
+}
+
+.contact__terms__text h1{
+    font-size: 13px;
+    font-weight: 100;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+}
+
+.contact__terms__text::-webkit-scrollbar {
+    display: none
+}
+
+.contact__consent {
+    text-align: center
+}
+
+.contact__consent__check{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    border-bottom: solid 1.5px #E0E0E0;
+}
+
+.contact__consent__check input{
+    width: 25px;
+    margin: 0 10px;
+    background-color: #F7F7F7;
+}
+
+.contact__consent__btn input {
+    cursor: pointer;
+    width: 400px;
+    padding: 20px 0;
+    margin: 20px 0;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+    color: #fff;
+    background-color: #3B3B3B;
+    border: solid 1px #fff;
+}
+
+@media (max-width:959px) and (min-width:590px) {
+    .contact {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .contact__date-selector {
+        width: 62%
+    }
+
+    .contact__phone input {
+        width: 60%;
+    }
+
+    .contact__postalNumber input{
+        width: 98%;
+    }
+
+    .contact__name input{
+        width: 59%;
+    }
+
+    .contact__address__input-early__prefecture input{
+        width: 88%;
+    }
+
+    .contact__address__input-early__region input{
+        width: 88%;
+    }
+
+    .contact__address__input-late{
+        width: 45%;
+    }
+
+    .contact__address__input-late input{
+        width: 100%;
+    }
+
+    .contact__email input{
+        width: 58.5%;
+    }
+
+    .contact__terms__text{
+        width: 58.5%;
+    }
+
+}
+
+
+@media (max-width:589px) {
+    .contact {
+        width: 95%;
+        margin: 30px auto;
+    }
+
+    .contact__model{
+        flex-direction: column;
+    }
+
+    .contact__model-selector{
+        width: 100%;
+    }
+
+    .contact__date {
+        display: block
+    }
+
+    .contact__date-selector {
+        width: 100%;
+        margin: 10px 0
+    }
+
+    .contact__name input{
+        width: 95%;
+    }
+
+    .contact__postalNumber{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact__postalNumber__input{
+        width: 95%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        flex-direction: column;
+    }
+
+    .contact__address{
+        flex-direction: column;
+    }
+
+    .contact__address__input{
+        width: 100%;
+    }
+
+    .contact__address__input-early__prefecture input{
+        width: 85%;
+    }
+
+    .contact__address__input-early__region input{
+        width: 85%;
+    }
+
+    .contact__address__input-late{
+        width: 95%;
+    }
+
+    .contact__phone__input{
+        width: 100%;
+    }
+
+    .contact__phone__input span{
+        margin: 0 10px;
+    }
+
+    .contact__email input{
+        width: 95%;
+    }
+
+    .contact__terms{
+        flex-direction: column;
+    }
+
+    .contact__terms__text{
+        width: 95%;
+    }
+
+    .contact__email,
+    .contact__name,
+    .contact__phone {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start
+    }
+
+    .contact__postalNumber label,
+    .contact__date label,
+    .contact__model label,
+    .contact__address label,
+    .contact__email label,
+    .contact__name label,
+    .contact__phone label,
+    .contact__terms label {
+        margin: 0 10px;
+        font-size: 15px;
+    }
+
+    .contact__consent__btn input {
+        width: 98%
+    }
+
+    .contact__consent__btn-bg {
+        width: 98%;
+        left: 51.8%
+    }
+}
+
+.infinite-slider .swiper-wrapper {
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear
+}

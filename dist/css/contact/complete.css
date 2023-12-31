@@ -1,0 +1,47 @@
+.complete-form{
+    width: 50%;
+    margin:30px auto;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.complete-form h2{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+}
+
+.complete-btn{
+    width: 300px;
+    padding: 20px 0;
+    margin: 300px auto 0;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', sans-serif;
+    color: #fff;
+    background-color: #3B3B3B;
+}
+
+.complete-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width:959px) and (min-width:590px) {
+    .complete-form{
+        width: 70%;
+        margin: 40px auto;
+    }
+    .complete-form p{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:589px) {
+    .complete-form{
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px 5px;
+    }
+    .complete-form p{
+        font-size: 13px;
+    }
+}
